@@ -2,6 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import { Button } from '../button'
 import { HomeIcon, Sprout } from 'lucide-react'
+import { ModeToggle } from '../ModeToggle'
+
+
 
 function Navbar() {
   return (
@@ -37,7 +40,7 @@ function Navbar() {
   </Link>
 </Button>
 
-
+ <ModeToggle/>
 
    </div>
 
